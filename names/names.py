@@ -15,6 +15,7 @@ duplicates = []
 for n in names_1:
     if n in names_2:
         duplicates.append(n)
+# time complexity 0(2n)
 
 # duplicates = LinkedList()
 # for i in range(len(names_1)):
